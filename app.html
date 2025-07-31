@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <style>
+        body{
+            text-align: center;
+        }
+        .btn-container{
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            gap: 10px;
+        }
+        .btn{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .red{
+            background-color: #d95920;
+        }
+        .yellow{
+            background-color: #f99b45;
+        }
+        .green{
+            background-color:#819ff9 ;
+        }
+        .purple{
+            background-color: #63aac0;
+        }
+        .flashbtn{
+            background-color: white;
+        }
+        .flash{
+            background-color: green;
+        }
+    </style>
+
+
+
+
+    <h2>Simon Game</h2>
+    <h3>Press any key to Start the Game</h3>
+    <div class="btn-container">
+        <div class="line-1">
+    <div class="btn red" type="button" id="red"></div>
+    <div class="btn yellow" type="button" id="yellow"></div>
+    </div>
+    <div class="line-2">
+    <div class="btn green" type="button" id="green"></div>
+    <div class="btn purple" type="button" id="purple"></div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
